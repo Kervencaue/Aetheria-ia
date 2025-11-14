@@ -1,0 +1,22 @@
+# Aetheria Blockchain Configuration
+
+network:
+  name: "Aetheria Mainnet"
+  version: "1.0.0"
+  
+blockchain:
+  initial_supply: 1000000  # Initial supply of Aetheria tokens
+  block_reward: 50         # Reward per block
+  
+consensus:
+  type: "PoS"
+  min_stake: 1000          # Minimum stake to become validator
+  block_time: 5            # Block time in seconds
+  
+api:
+  default_port: 8080
+  enable_cors: true
+  
+node:
+  max_peers: 50
+  sync_interval: 10        # Sync interval in seconds
